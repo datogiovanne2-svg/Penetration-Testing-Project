@@ -6,7 +6,7 @@
 
 > **Full Black-Box Web Application Security Assessment**
 > **Target Domain:** `https://medirozahospital.com`
-> **Engagement Window:** September 2026 (3-Day Assessment)
+> **Engagement Window:** 24–26 September 2026 (3-Day Assessment)
 > **Overall Risk Rating:** 🔴 **CRITICAL** (Immediate Remediation Required)
 
 This repository documents an authorized black-box penetration test performed against a target that simulates a hospital's public-facing web infrastructure. The assessment demonstrates a realistic, chained attack path — from an unauthenticated SQL injection foothold through to exposure of an internal database backup — and provides a full remediation roadmap.
@@ -98,7 +98,7 @@ The engagement was executed under strict black-box conditions over a 3-day windo
 * **Authorized Domain Only:** Testing was confined strictly to `https://medirozahospital.com`.
 * **Prohibited Actions:** Denial of Service (DoS/DDoS), social engineering of hospital staff, and destruction of production data were strictly prohibited.
 * **Confidentiality Protocol:** All sensitive data extracted during testing (PHI, salaries, shareholder data) was securely logged and redacted in final reporting.
-* **Engagement Window:** 08–10 September 2026, with all testing activity logged by timestamp for the final report.
+* **Engagement Window:** 24–26 September 2026, with all testing activity logged by timestamp for the final report.
 * **Data Handling:** No sensitive data was exfiltrated beyond the lab environment; all proof-of-concept artifacts were stored on an encrypted testing workstation.
 
 ### 3.2 Testing Phases
@@ -274,7 +274,7 @@ mediroza-pentest-report/
 
 ## ⚠️ Liability Disclaimer
 
-This penetration testing report and all associated activities conducted between **08th September 2026** and **10th September 2026** were performed strictly within the authorized scope on systems for which explicit written permission was secured. The materials, findings, and methodologies detailed herein are provided solely for educational, research, and authorized remediation purposes.
+This penetration testing report and all associated activities conducted between **24th September 2026** and **26th September 2026** were performed strictly within the authorized scope on systems for which explicit written permission was secured. The materials, findings, and methodologies detailed herein are provided solely for educational, research, and authorized remediation purposes.
 
 Any unauthorized use, reproduction, or execution of these techniques outside the permitted scope is strictly prohibited and violates applicable laws. Neither the authors, security researchers, nor Mediroza General Hospital assume any liability or responsibility for misuse or unlawful actions taken using this knowledge; all actions and consequences remain the sole responsibility of the user.
 
@@ -282,6 +282,7 @@ Any unauthorized use, reproduction, or execution of these techniques outside the
 
 ## 👤 Author & Project Information
 
-* **Author:** Ng Jian Nian
-* **LinkedIn:** [Ng Jian Nian](https://www.linkedin.com/in/jian-nian-ng-5083a2387)
+* **Author:** Dato Giovanni
+* **LinkedIn:** Dato Giovanni
 * **Repository:** GitHub
+
